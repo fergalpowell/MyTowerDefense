@@ -17,10 +17,12 @@ public class BuildManager : MonoBehaviour
     }
 
     public GameObject standardTurretPrefab;
+    public GameObject landminePrefab;
 
     private void Start()
     {
         turretToBuild = standardTurretPrefab;
+        landMineToBuild = landminePrefab;
     }
 
     private GameObject turretToBuild;
@@ -28,5 +30,12 @@ public class BuildManager : MonoBehaviour
     public GameObject getTurretToBuild()
     {
         return turretToBuild;
+    }
+
+    private GameObject landMineToBuild;
+
+    public GameObject getlandMineToBuild()
+    {
+        return landMineToBuild;
     }
 }
