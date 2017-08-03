@@ -1,0 +1,77 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   20.19.15.4642
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender2_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.040 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.910031 ms
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UIManager.showGameOver () [0x00000] in <filename unknown>:0 
+  at UIManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3888 -> priority: 1 
+  Thread -> id: 1f48 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.389770 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2059.
+Total: 1.043116 ms (FindLiveObjects: 0.125325 ms CreateObjectMapping: 0.074546 ms MarkObjects: 0.826498 ms  DeleteObjects: 0.015665 ms)
+
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UIManager.showGameOver () [0x00000] in <filename unknown>:0 
+  at UIManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+4
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.609781 ms
+
+Unloading 218 unused Assets to reduce memory usage. Loaded Objects now: 1665.
+Total: 1.269998 ms (FindLiveObjects: 0.130727 ms CreateObjectMapping: 0.090752 ms MarkObjects: 0.523989 ms  DeleteObjects: 0.523989 ms)
+
+0
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at UIManager.showGameOver () [0x00000] in <filename unknown>:0 
+  at UIManager.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

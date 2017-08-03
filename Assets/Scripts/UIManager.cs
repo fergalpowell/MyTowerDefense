@@ -2,45 +2,40 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour {
 
     GameObject[] pauseObjects;
+    GameObject[] gameOverObjects;
+    public Text gameOverText;
 
     // Use this for initialization
     void Start()
     {
-        Time.timeScale = 1;
         pauseObjects = GameObject.FindGameObjectsWithTag("ShowOnPaused");
-        hidePaused();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-        //uses the p button to pause and unpause the game
-        if (Input.GetKeyDown(KeyCode.P))
+        gameOverObjects = GameObject.FindGameObjectsWithTag("ShowOnGameOver");
+        
+        if (gameOverObjects != null)
         {
-            if (Time.timeScale == 1)
-            {
-                Time.timeScale = 0;
-                showPaused();
-            }
-            else if (Time.timeScale == 0)
-            {
-                Debug.Log("high");
-                Time.timeScale = 1;
-                hidePaused();
-            }
+            Debug.Log(gameOverObjects.Length.ToString());
+            showGameOver();
+            hideGameOver();
         }
+        else
+        {
+            Debug.Log(gameOverObjects.Length.ToString());
+        }
+        
+        Time.timeScale = 0;
+
     }
 
 
     //Reloads the Level
-    public void Reload()
+    public void MainMenu()
     {
-        Application.LoadLevel(Application.loadedLevel);
+        SceneManager.LoadScene("MainMenu");
     }
 
     //controls the pausing of the scene
@@ -76,10 +71,37 @@ public class UIManager : MonoBehaviour {
         }
     }
 
+    //shows objects with ShowOnPause tag
+    public void showGameOver()
+    {
+        Time.timeScale = 0;
+        if (PlayerStats.lives <= 0)
+        {
+            gameOverText.text = "GameOver";
+        }
+        else
+        {
+            gameOverText.text = "Game\nCompleted";
+        }
+        foreach (GameObject g in gameOverObjects)
+        {
+            g.SetActive(true);
+        }
+    }
+
+    //hides objects with ShowOnPause tag
+    public void hideGameOver()
+    {
+        Time.timeScale = 1;
+        foreach (GameObject g in gameOverObjects)
+        {
+            g.SetActive(false);
+        }
+    }
+
     //loads inputted level
     public void LoadLevel(string level)
     {
-        Debug.Log("Load Scene");
         SceneManager.LoadScene("Game");
     }
 }

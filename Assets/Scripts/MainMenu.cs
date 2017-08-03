@@ -15,9 +15,13 @@ public class MainMenu : MonoBehaviour {
     }
 
     //loads inputted level
-    public void LoadLevel(string level)
+    public void LoadLevel()
     {
-        Debug.Log("Load Scene");
         SceneManager.LoadScene("Game");
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

@@ -19,91 +19,44 @@ Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDe
 Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
 Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-- Completed reload, in  0.044 seconds
+- Completed reload, in  0.340 seconds
 Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\System.dll (this message is harmless)
 desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 2.095955 ms
+UnloadTime: 3.398905 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 414 -> priority: 1 
-Load Scene
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 8.219064 ms
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1771.
-Total: 1.029611 ms (FindLiveObjects: 0.131267 ms CreateObjectMapping: 0.063742 ms MarkObjects: 0.818935 ms  DeleteObjects: 0.014045 ms)
-
-(35.0, 80.0, 14.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Explosion
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-(35.0, 80.0, 14.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Explosion
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.930116 ms
-
-Unloading 196 unused Assets to reduce memory usage. Loaded Objects now: 1771.
-Total: 1.623825 ms (FindLiveObjects: 0.161518 ms CreateObjectMapping: 0.076167 ms MarkObjects: 0.520207 ms  DeleteObjects: 0.864851 ms)
-
-(35.0, 80.0, 14.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-(35.0, 80.0, 14.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Explosion
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Explosion
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-(35.0, 80.0, 14.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Explosion
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-(35.0, 80.0, 14.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Explosion
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Load Scene
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.975933 ms
-
-Unloading 196 unused Assets to reduce memory usage. Loaded Objects now: 1771.
-Total: 2.201834 ms (FindLiveObjects: 0.267936 ms CreateObjectMapping: 0.081569 ms MarkObjects: 0.616902 ms  DeleteObjects: 1.234345 ms)
-
-(35.0, 80.0, 14.0)
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
+  Thread -> id: 1270 -> priority: 1 
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   20.19.15.4642
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.063 seconds
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.739768 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 3b68 -> priority: 1 

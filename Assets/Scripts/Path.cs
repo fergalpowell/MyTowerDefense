@@ -6,11 +6,12 @@ public class Path : MonoBehaviour
 {
 
     private GameObject landMine;
+    BuildManager buildManager;
 
     // Use this for initialization
     void Start()
     {
-
+        buildManager = BuildManager.instance;
     }
 
     // Update is called once per frame
@@ -20,9 +21,15 @@ public class Path : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        if (buildManager.getlandMineToBuild() == null || PlayerStats.Money < 250)
+        {
+            return;
+        }
         GameObject landMineToBuild = BuildManager.instance.getlandMineToBuild();
-        var mousePos = Input.mousePosition;
-        Debug.Log(Camera.main.ScreenToWorldPoint(mousePos));
-        landMine = GameObject.Instantiate(landMineToBuild, transform.position, transform.rotation);
+        Vector3 landminePos = transform.position;
+        landminePos.y = 0;
+        landMine = GameObject.Instantiate(landMineToBuild, landminePos, transform.rotation);
+        PlayerStats.Money -= 250;
+        BuildManager.instance.SelectLandMineToBuild(null);
     }
 }

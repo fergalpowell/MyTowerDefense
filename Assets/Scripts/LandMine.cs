@@ -5,8 +5,8 @@ using UnityEngine;
 public class LandMine : MonoBehaviour {
 
     public GameObject explosionPrefab;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -15,16 +15,15 @@ public class LandMine : MonoBehaviour {
 		
 	}
 
-    private IEnumerator OnTriggerEnter(Collider col)
+    private void OnTriggerEnter(Collider col)
     {
-        if(col.tag == "Enemy")
+        if (col.tag == "Enemy")
         {
-            Debug.Log("Explosion");
-            explosionPrefab.SetActive(true);
-            Destroy(col.gameObject);
-            yield return new WaitForSeconds(1.5f);
             Destroy(this.gameObject);
-            
-        }
+            GameObject effectIns = (GameObject)Instantiate(explosionPrefab, transform.position, transform.rotation);
+            Destroy(effectIns, 5f);
+            Destroy(col.gameObject);
+            PlayerStats.Money += PlayerStats.reward;
+        }         
     }
 }

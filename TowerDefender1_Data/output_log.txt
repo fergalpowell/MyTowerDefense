@@ -1,0 +1,137 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics Family (ID=0xa16)
+    Vendor:   Intel
+    VRAM:     1136 MB
+    Driver:   20.19.15.4642
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.045 seconds
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Fergal Powell\Desktop\GameDev\MyTowerDefense\TowerDefender1_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 2.907868 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: de8 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.225546 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1879.
+Total: 0.781121 ms (FindLiveObjects: 0.128566 ms CreateObjectMapping: 0.065903 ms MarkObjects: 0.570445 ms  DeleteObjects: 0.014585 ms)
+
+looking for paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.516326 ms
+
+Unloading 196 unused Assets to reduce memory usage. Loaded Objects now: 1879.
+Total: 1.292145 ms (FindLiveObjects: 0.154495 ms CreateObjectMapping: 0.079948 ms MarkObjects: 0.561802 ms  DeleteObjects: 0.495358 ms)
+
+(35.0, 80.0, 14.0)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+looking for paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.461226 ms
+
+Unloading 228 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 1.150614 ms (FindLiveObjects: 0.107498 ms CreateObjectMapping: 0.074006 ms MarkObjects: 0.416490 ms  DeleteObjects: 0.552079 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.159798 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1879.
+Total: 0.777340 ms (FindLiveObjects: 0.144232 ms CreateObjectMapping: 0.066984 ms MarkObjects: 0.551538 ms  DeleteObjects: 0.013504 ms)
+
+looking for paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Showing paused
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.934437 ms
+
+Unloading 228 unused Assets to reduce memory usage. Loaded Objects now: 1582.
+Total: 1.216518 ms (FindLiveObjects: 0.144772 ms CreateObjectMapping: 0.079408 ms MarkObjects: 0.438638 ms  DeleteObjects: 0.552619 ms)
+

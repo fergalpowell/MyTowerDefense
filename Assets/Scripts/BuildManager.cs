@@ -17,25 +17,42 @@ public class BuildManager : MonoBehaviour
     }
 
     public GameObject standardTurretPrefab;
-    public GameObject landminePrefab;
+    public GameObject rocketTurretPrefab;
+    public GameObject landminePrefab;    
 
-    private void Start()
-    {
-        turretToBuild = standardTurretPrefab;
-        landMineToBuild = landminePrefab;
-    }
-
-    private GameObject turretToBuild;
-
-    public GameObject getTurretToBuild()
-    {
-        return turretToBuild;
-    }
+    private TurretInfo turretToBuild;
 
     private GameObject landMineToBuild;
 
     public GameObject getlandMineToBuild()
     {
         return landMineToBuild;
+    }
+
+    public bool CanBuild { get { return turretToBuild != null; } }
+    public bool HasMoney { get { return PlayerStats.Money >= turretToBuild.cost; } }
+
+    public void SelectTurretToBuild(TurretInfo turret)
+    {
+        turretToBuild = turret;
+    }
+
+    public void SelectLandMineToBuild(GameObject landmine)
+    {
+        landMineToBuild = landmine;
+    }
+
+    public void BuildTurretOn(Node node)
+    {
+        if (PlayerStats.Money < turretToBuild.cost)
+        {
+            Debug.Log("Not enough moeny");
+            return;
+        }
+
+        PlayerStats.Money -= turretToBuild.cost;
+        GameObject turret =  (GameObject)Instantiate(turretToBuild.prefab, node.GetBuildPosition(), Quaternion.identity);
+        node.turret = turret;
+        BuildManager.instance.SelectTurretToBuild(null);
     }
 }
