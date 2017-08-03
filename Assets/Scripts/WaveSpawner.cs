@@ -32,6 +32,7 @@ public class WaveSpawner : MonoBehaviour {
     {
         waveNumber++;
 
+        // setting the difficulty of enemies
         if (waveNumber == 1)
         {
             Enemy.min = 1;
@@ -73,11 +74,13 @@ public class WaveSpawner : MonoBehaviour {
             Enemy.max = 4;
         }
 
+        // Game Completed
         if (waveNumber > 20)
         {
             GameObject gameOver = GameObject.FindGameObjectWithTag("Canvas");
             gameOver.GetComponent<UIManager>().showGameOver();
         }
+        // Spawning enemies
         for (int i = 0; i < waveNumber; i++)
         {
             SpawnEnemy();

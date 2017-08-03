@@ -29,6 +29,7 @@ public class BuildManager : MonoBehaviour
         return landMineToBuild;
     }
 
+    // properties to check if there is already a turret built and the player has enough money
     public bool CanBuild { get { return turretToBuild != null; } }
     public bool HasMoney { get { return PlayerStats.Money >= turretToBuild.cost; } }
 

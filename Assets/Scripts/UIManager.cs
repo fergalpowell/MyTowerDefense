@@ -32,7 +32,7 @@ public class UIManager : MonoBehaviour {
     }
 
 
-    //Reloads the Level
+    //Loads main menu
     public void MainMenu()
     {
         SceneManager.LoadScene("MainMenu");
@@ -70,8 +70,7 @@ public class UIManager : MonoBehaviour {
             g.SetActive(false);
         }
     }
-
-    //shows objects with ShowOnPause tag
+    
     public void showGameOver()
     {
         Time.timeScale = 0;
@@ -88,8 +87,7 @@ public class UIManager : MonoBehaviour {
             g.SetActive(true);
         }
     }
-
-    //hides objects with ShowOnPause tag
+    
     public void hideGameOver()
     {
         Time.timeScale = 1;
@@ -98,8 +96,7 @@ public class UIManager : MonoBehaviour {
             g.SetActive(false);
         }
     }
-
-    //loads inputted level
+    
     public void LoadLevel(string level)
     {
         SceneManager.LoadScene("Game");

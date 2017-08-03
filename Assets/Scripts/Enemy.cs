@@ -74,6 +74,7 @@ public class Enemy : MonoBehaviour {
         rend = gameObject.GetComponentInChildren<Renderer>();
         WaveSpawner wave = new WaveSpawner();
  
+        // randomly assigning the enemy its diffuclty
         int startState = Random.Range(min, max);
         switch (startState)
         {
@@ -103,6 +104,7 @@ public class Enemy : MonoBehaviour {
         Vector3 dir = target.position - transform.position;
         transform.Translate(dir.normalized * speed * Time.deltaTime, Space.World);
 
+        // Turning the enemy towards its waypoint
         switch (index)
         {
             case 1:
@@ -173,16 +175,8 @@ public class Enemy : MonoBehaviour {
             default:
                 break;
         }
-        if (index == 1)
-        {
-            
-        }
-        if (index ==2 )
-        {
-            transform.localEulerAngles = new Vector3(0, -90, 0);
-        }
 
-
+        // if reached the waypoint
         if (Vector3.Distance(transform.position, target.position) <= 0.2f)
         {
             UpdateWaypoints();
@@ -191,6 +185,7 @@ public class Enemy : MonoBehaviour {
 
     void UpdateWaypoints()
     {
+        // if reached the last waypoint
         if (index >= Waypoints.points.Length -1)
         {
             EndPath();
@@ -210,6 +205,7 @@ public class Enemy : MonoBehaviour {
         }
         else
         {
+            // Show game over screen
             GameObject gameOver = GameObject.FindGameObjectWithTag("Canvas");
             gameOver.GetComponent<UIManager>().showGameOver();
         }

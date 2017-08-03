@@ -39,6 +39,8 @@ public class Bullet : MonoBehaviour {
     void HitTarget()
     {
         Destroy(gameObject);
+
+        // Updating Enemy states
         if (target.gameObject.GetComponent<Enemy>().state.ToString() == "FullShield")
         {
             target.gameObject.GetComponent<Enemy>().state = Enemy.States.HalfShield;
